@@ -1,5 +1,6 @@
 ## extrait fichier /etc/dhcp/dhcpd.conf
 
+```
 default-lease-time 600;
 max-lease-time 7200;
 option subnet-mask 255.255.255.0;
@@ -11,4 +12,5 @@ option domain-name "kaycee.world";
 subnet 192.168.1.0 netmask 255.255.255.0 {
   range 192.168.1.10 192.168.1.100;
 }
+```
 
